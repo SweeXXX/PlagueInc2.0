@@ -1,0 +1,14 @@
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\bin\Debug\Plague Inc.2.0.exe.config
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\bin\Debug\Plague Inc.2.0.exe
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\bin\Debug\Plague Inc.2.0.pdb
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague Inc.2.0.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague Inc.2.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague_Inc._2._0.FirstForm.resources
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague_Inc._2._0.Properties.Resources.resources
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague Inc.2.0.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague Inc.2.0.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague Inc.2.0.exe
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague Inc.2.0.pdb
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague_Inc._2._0.ChoiceType.resources
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague_Inc._2._0.ChoiceClimate.resources
+C:\Users\Никита\Desktop\fakk\Plague Inc.2.0\obj\Debug\Plague_Inc._2._0.ChoiceDrugs.resources
