@@ -204,9 +204,10 @@ namespace Plague_Inc._2._0
 
         private void button24_Click(object sender, EventArgs e)
         {
-            LastForm mainForm = new LastForm(disease);
-            mainForm.Show();
             this.Hide();
+            var form2 = new ChoiceSpecial(disease);
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -215,6 +216,11 @@ namespace Plague_Inc._2._0
             ChoiceDrugs choiceDrugs = new ChoiceDrugs(disease);
             choiceDrugs.Show();
             this.Hide();
+        }
+
+        private void ChoiceSymptoms_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

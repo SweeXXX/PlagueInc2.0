@@ -188,6 +188,11 @@ namespace Plague_Inc._2._0
             this.Hide();
         }
 
+        private void ChoiceClimate_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
         bool ShowHard()
         {
 
@@ -201,9 +206,10 @@ namespace Plague_Inc._2._0
         private void button6_Click(object sender, EventArgs e)
         {
             disease.Temp = disease.Score;
-            ChoiceDrugs choiceDrugs = new ChoiceDrugs(disease);
-            choiceDrugs.Show();
             this.Hide();
+            var form2 = new ChoiceDrugs(disease);
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
         }
         private void InitializeButtonMap()
         {

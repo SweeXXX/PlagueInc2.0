@@ -551,6 +551,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ChoiceSymptoms";
             this.Text = "Выберите симптомы";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ChoiceSymptoms_FormClosing);
             this.Load += new System.EventHandler(this.ChoiceSymptoms_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

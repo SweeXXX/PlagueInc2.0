@@ -17,13 +17,16 @@ namespace Plague_Inc._2._0
     public partial class ChoiceType : Form
     {
         MainCS disease = new MainCS();
+        private MusicPlayer musicPlayer;
         private Dictionary<Button, ITypeable> buttonStringMap;
         public ChoiceType()
         {
+            musicPlayer = new MusicPlayer();
             InitializeComponent();
         }
         internal ChoiceType(MainCS mainCS)
         {
+            musicPlayer = new MusicPlayer();
             disease = mainCS;
             InitializeComponent();
         }
@@ -82,6 +85,7 @@ namespace Plague_Inc._2._0
 
         private void ChoiceType_Load(object sender, EventArgs e)
         {
+            musicPlayer.Start();
             InitializeButtonMap();
         }
         private void InitializeButtonMap()
@@ -128,6 +132,12 @@ namespace Plague_Inc._2._0
             Button clickedButton = (Button)sender;
             var type = buttonStringMap[clickedButton];
             label1.Text = type.ToString();
+        }
+
+        private void ChoiceType_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            musicPlayer.Stop();
+            Application.Exit();
         }
     }
 }

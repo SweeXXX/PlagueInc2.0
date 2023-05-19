@@ -33,8 +33,38 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Win32.Registry, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Win32.Registry.4.7.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.2.1.0\lib\net472\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Asio, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Asio.2.1.0\lib\netstandard2.0\NAudio.Asio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Core, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Core.2.1.0\lib\netstandard2.0\NAudio.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Midi, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Midi.2.1.0\lib\netstandard2.0\NAudio.Midi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Wasapi, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Wasapi.2.1.0\lib\netstandard2.0\NAudio.Wasapi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinForms, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.WinForms.2.1.0\lib\net472\NAudio.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinMM, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.WinMM.2.1.0\lib\netstandard2.0\NAudio.WinMM.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.AccessControl.4.7.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Principal.Windows.4.7.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,6 +88,12 @@
     <Compile Include="ChoiceDrugs.Designer.cs">
       <DependentUpon>ChoiceDrugs.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChoiceSpecial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoiceSpecial.Designer.cs">
+      <DependentUpon>ChoiceSpecial.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChoiceSymptoms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +110,7 @@
     <Compile Include="Classes\DrugsChoice\Drugs.cs" />
     <Compile Include="Classes\ImageWork.cs" />
     <Compile Include="Classes\MainCS.cs" />
+    <Compile Include="Classes\MusicPlayer.cs" />
     <Compile Include="Classes\TypesCS\Bacterium.cs" />
     <Compile Include="Classes\TypesCS\BioWeapon.cs" />
     <Compile Include="Classes\TypesCS\Fungus.cs" />
@@ -81,11 +118,11 @@
     <Compile Include="Classes\TypesCS\Glist.cs" />
     <Compile Include="Classes\TypesCS\Prion.cs" />
     <Compile Include="Classes\TypesCS\Virus.cs" />
-    <Compile Include="LastForm.cs">
+    <Compile Include="FinishForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LastForm.Designer.cs">
-      <DependentUpon>LastForm.cs</DependentUpon>
+    <Compile Include="FinishForm.Designer.cs">
+      <DependentUpon>FinishForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaceses\ITypeable.cs" />
     <Compile Include="Program.cs" />
@@ -96,14 +133,17 @@
     <EmbeddedResource Include="ChoiceDrugs.resx">
       <DependentUpon>ChoiceDrugs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChoiceSpecial.resx">
+      <DependentUpon>ChoiceSpecial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChoiceSymptoms.resx">
       <DependentUpon>ChoiceSymptoms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChoiceType.resx">
       <DependentUpon>ChoiceType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LastForm.resx">
-      <DependentUpon>LastForm.cs</DependentUpon>
+    <EmbeddedResource Include="FinishForm.resx">
+      <DependentUpon>FinishForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Symptoms.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -125,6 +165,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,9 +184,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ChoiceType.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tr1.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tr1.jpg" />
@@ -223,6 +261,7 @@
     <None Include="Resources\nazad.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Plague Inc. OST - Plague Blossom_%28audiohunter.ru%29.mp3" />
     <None Include="Resources\2023-05-19_16-33-171.png" />
     <None Include="Resources\2023-05-19_16-32-481.png" />
     <None Include="Resources\2023-05-19_16-31-401.png" />
@@ -281,6 +320,27 @@
     <None Include="Resources\2023-05-19_16-18-10.png" />
     <None Include="Resources\2023-05-19_16-17-37.png" />
     <None Include="Resources\2023-05-19_16-16-55.png" />
+    <None Include="Resources\2023-05-19_21-52-37.png" />
+    <None Include="Resources\2023-05-19_21-52-12.png" />
+    <None Include="Resources\2023-05-19_21-51-43.png" />
+    <None Include="Resources\2023-05-19_21-50-51.png" />
+    <None Include="Resources\2023-05-19_21-50-24.png" />
+    <None Include="Resources\2023-05-19_21-49-57.png" />
+    <None Include="Resources\2023-05-19_21-48-58.png" />
+    <None Include="Resources\2023-05-19_21-48-33.png" />
+    <None Include="Resources\2023-05-19_21-48-02.png" />
+    <None Include="Resources\2023-05-19_21-57-53.png" />
+    <None Include="Resources\2023-05-19_21-57-24.png" />
+    <None Include="Resources\2023-05-19_21-56-55.png" />
+    <None Include="Resources\neytral_rnk.png" />
+    <None Include="Resources\neytral_rnk_2.png" />
+    <None Include="Resources\Neytralizatsia_RNK_3.png" />
+    <None Include="Resources\Peregruzka_perekhvatchika_1.png" />
+    <None Include="Resources\Staz_avariynykh_vyklyuchateley_1.png" />
+    <None Include="Resources\amiotrofia_1_1.png" />
+    <None Include="Resources\amiotrofia_2_1.png" />
+    <None Include="Resources\amiotrofia_3_1.png" />
+    <None Include="Resources\immunka_k_lekam_1.png" />
     <Content Include="Resources\Симптомы плагуе\2023-05-19_16-16-55.png" />
     <Content Include="Resources\Симптомы плагуе\2023-05-19_16-17-37.png" />
     <Content Include="Resources\Симптомы плагуе\2023-05-19_16-18-10.png" />

@@ -219,6 +219,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ChoiceType";
             this.Text = "Выберите тип";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ChoiceType_FormClosing);
             this.Load += new System.EventHandler(this.ChoiceType_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
