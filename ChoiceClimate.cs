@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,7 @@ namespace Plague_Inc._2._0
     public partial class ChoiceClimate : Form
     {
         internal MainCS disease = new MainCS();
+        private Dictionary<Button, string> buttonStringMap;
         Image c1 = global::Plague_Inc._2._0.Properties.Resources._2023_05_17_20_15_30,
             c2 = global::Plague_Inc._2._0.Properties.Resources._2023_05_17_20_16_43,
             h1 = global::Plague_Inc._2._0.Properties.Resources._2023_05_17_20_17_22,
@@ -69,12 +71,20 @@ namespace Plague_Inc._2._0
         private void ChoiceClimate_Load(object sender, EventArgs e)
         {
             label2.Text = disease.Score.ToString();
+            disease.Temp = disease.Score;
+            InitializeButtonMap();
             this.DoubleBuffered = true;
             button1.BackgroundImage = ImageWork.CreateDimmedImage(button1.BackgroundImage);
             button2.BackgroundImage = ImageWork.CreateDimmedImage(button2.BackgroundImage);
             button3.BackgroundImage = ImageWork.CreateDimmedImage(button3.BackgroundImage);
             button4.BackgroundImage = ImageWork.CreateDimmedImage(button4.BackgroundImage);
             button5.BackgroundImage = ImageWork.CreateDimmedImage(button5.BackgroundImage);
+        }
+        private void Button_MouseEnter(object sender, EventArgs e)
+        {
+            Button clickedButton = (Button)sender;
+            string type = buttonStringMap[clickedButton];
+            label3.Text = type;
         }
         bool Helper()
         {
@@ -90,13 +100,13 @@ namespace Plague_Inc._2._0
             {
                 bool flag = true;
                 Button button = (Button)sender;
-                if (button.Equals(button2) && !button2.BackgroundImage.Equals(c1) && Helper())
+                if (button.Equals(button1) && !button1.BackgroundImage.Equals(c1) && Helper())
                 {
                     disease.Climate.cold1 = true;
                     button.BackgroundImage = c1;
-                    button1.Visible = true;
+                    button2.Visible = true;
                 }
-                else if (button.Equals(button1) && disease.Climate.cold1 && !button1.BackgroundImage.Equals(c2) && Helper())
+                else if (button.Equals(button2) && disease.Climate.cold1 && !button2.BackgroundImage.Equals(c2) && Helper())
                 {
                     disease.Climate.cold2 = true;
                     button.BackgroundImage = c2;
@@ -153,10 +163,35 @@ namespace Plague_Inc._2._0
         {
             label2.Text = disease.Score.ToString();
         }
+
+        private void RoundButton(object sender, PaintEventArgs e)
+        {
+            Button button = (Button)sender;
+
+            GraphicsPath path = new GraphicsPath();
+            int diameter = Math.Min(button.Width, button.Height) -7;
+
+            path.AddEllipse(
+                (button.Width - diameter) / 2,
+                (button.Height - diameter) / 2,
+                diameter,
+                diameter);
+
+            button.Region = new Region(path);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            disease.Score = disease.Temp;
+            ChoiceType choiceType = new ChoiceType(disease);
+            choiceType.Show();
+            this.Hide();
+        }
+
         bool ShowHard()
         {
 
-            if(button4.BackgroundImage.Equals(h2) && button1.BackgroundImage.Equals(c2) && !button5.Visible)
+            if(button4.BackgroundImage.Equals(h2) && button2.BackgroundImage.Equals(c2) && !button5.Visible)
             {
                 button5.Visible = true;
                 return true;
@@ -165,14 +200,25 @@ namespace Plague_Inc._2._0
         }
         private void button6_Click(object sender, EventArgs e)
         {
+            disease.Temp = disease.Score;
             ChoiceDrugs choiceDrugs = new ChoiceDrugs(disease);
             choiceDrugs.Show();
             this.Hide();
         }
-
+        private void InitializeButtonMap()
+        {
+            buttonStringMap = new Dictionary<Button, string>
+        {
+            { button2, "Патоген выживает в условиях низких температур и в холодном климате."},
+            { button1, "Малый объем внутриклеточной воды препятствует замерзанию. Повышается эффективность болезни в странах с холодным климатом." },
+            { button3, "Патоген выживает в условиях высоких температур и в жарком климате."},
+            { button4, "Патоген выживает при высоких температурах. Повышается эффективность в жарких странах."},
+            { button5, "Укрепление оболочки патогена делает его невосприимчивым к атмосферным воздействиям в жарком и холодном климате."}
+        };
+        }
         private void label1_Paint(object sender, PaintEventArgs e)
         {
-            Label lbl = sender as Label;
+            System.Windows.Forms.Label lbl = sender as System.Windows.Forms.Label;
             lbl.BackColor = Color.Transparent;
             Graphics g = e.Graphics;
             g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;

@@ -36,8 +36,10 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,6 +111,7 @@
             this.button5.Visible = false;
             this.button5.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UppDate_MouseClick);
+            this.button5.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button4
             // 
@@ -126,6 +129,7 @@
             this.button4.Visible = false;
             this.button4.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UppDate_MouseClick);
+            this.button4.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button3
             // 
@@ -141,38 +145,69 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UppDate_MouseClick);
-            // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.SystemColors.ControlText;
-            this.button2.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources._2023_05_17_20_15_30;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(199, 88);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 90);
-            this.button2.TabIndex = 7;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
-            this.button2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UppDate_MouseClick);
+            this.button3.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.AutoSize = true;
             this.button1.BackColor = System.Drawing.SystemColors.ControlText;
-            this.button1.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources._2023_05_17_20_16_43;
+            this.button1.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources._2023_05_17_20_15_30;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(265, 133);
+            this.button1.Location = new System.Drawing.Point(199, 88);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 90);
-            this.button1.TabIndex = 6;
+            this.button1.TabIndex = 7;
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Visible = false;
             this.button1.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UppDate_MouseClick);
+            this.button1.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.AutoSize = true;
+            this.button2.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button2.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources._2023_05_17_20_16_43;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(265, 133);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 90);
+            this.button2.TabIndex = 6;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Visible = false;
+            this.button2.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
+            this.button2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UppDate_MouseClick);
+            this.button2.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(517, 36);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(266, 261);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Описание";
+            // 
+            // button7
+            // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button7.AutoSize = true;
+            this.button7.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button7.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources.nazad;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button7.Location = new System.Drawing.Point(0, 400);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(50, 50);
+            this.button7.TabIndex = 26;
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.Paint += new System.Windows.Forms.PaintEventHandler(this.RoundButton);
             // 
             // ChoiceClimate
             // 
@@ -181,14 +216,16 @@
             this.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources.PlagueIncDef;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ChoiceClimate";
@@ -206,10 +243,12 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button7;
     }
 }

@@ -121,38 +121,17 @@
   <data name="Bacteria_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bacteria_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bio_weapon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bio-weapon_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChoiceType" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChoiceType.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rrion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rrion_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fungus_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fungus_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Glist_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Glist_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nano_virus_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nano-virus_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PlagueIncDef" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlagueIncDef.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rrion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rrion_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nazad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nazad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Virus_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Virus_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2023_05_17_20_15_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-17_20-15-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2023_05_17_20_16_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-17_20-16-43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2023_05_17_20_17_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-17_20-17-22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_2023_05_17_20_18_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2023-05-17_20-18-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,31 +139,142 @@
   <data name="_2023_05_17_20_18_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2023-05-17_20-18-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_2023_05_18_21_18_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-18_21-18-33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2023_05_18_21_19_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-18_21-19-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2023_05_18_21_20_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-18_21-20-47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2023_05_18_21_21_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-18_21-21-56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2023_05_18_21_22_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-18_21-22-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="_2023_05_18_21_23_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2023-05-18_21-23-23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2023_05_18_21_23_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-05-18_21-23-53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="плагуе" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\плагуе.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Glist_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glist_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nano_virus_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nano-virus_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_17_20_15_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-17_20-15-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bio_weapon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bio-weapon_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_18_21_20_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-18_21-20-47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_18_21_23_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-18_21-23-53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChoiceType" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChoiceType.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_18_21_22_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-18_21-22-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlagueIncDef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlagueIncDef.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="плгуемаин" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\плгуемаин.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_17_20_16_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-17_20-16-43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_18_21_19_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-18_21-19-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_18_21_21_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-18_21-21-56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_18_21_18_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-18_21-18-33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2023_05_17_20_17_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-17_20-17-22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-16-55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-16-551.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-17-37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-17-371.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-18-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-18-101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-18-47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-18-471.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-19-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-19-111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-19-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-19-401.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-20-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-20-041.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-20-33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-20-331.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-20-58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-20-581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-21-31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-21-311.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-21-59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-21-591.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-22-22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-22-221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-22-49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-22-491.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-23-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-23-121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-23-44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-23-441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-24-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-24-111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-24-44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-24-441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-25-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-25-151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-25-47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-25-471.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-26-27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-26-271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-26-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-26-521.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-28-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-28-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-28-53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-28-531.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-29-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-29-261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-30-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-30-031.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-31-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-31-141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-31-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-31-401.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-32-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-32-481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-05-19_16-33-17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-05-19_16-33-171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Plague_Inc._2._0.Classes.Climat;
 using Plague_Inc._2._0.Classes.DrugsChoice;
+using System.CodeDom.Compiler;
 
 namespace Plague_Inc._2._0.Classes
 {
@@ -15,6 +16,9 @@ namespace Plague_Inc._2._0.Classes
         internal ITypeable typeOfDisease;
         public Climate Climate = new Climate();
         internal Drugs Drug = new Drugs();
+        internal int countOfSymptoms = 0;
+        internal int Temp { get; set; }
+        
         internal int Score
         {
             get { return score; }

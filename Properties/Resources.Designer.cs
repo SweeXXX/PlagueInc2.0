@@ -183,6 +183,296 @@ namespace Plague_Inc._2._0.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_16_55 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-16-55", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_17_37 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-17-37", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_18_10 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-18-10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_18_47 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-18-47", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_19_11 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-19-11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_19_40 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-19-40", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_20_04 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-20-04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_20_33 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-20-33", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_20_58 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-20-58", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_21_31 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-21-31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_21_59 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-21-59", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_22_22 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-22-22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_22_49 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-22-49", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_23_12 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-23-12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_23_44 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-23-44", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_24_11 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-24-11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_24_44 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-24-44", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_25_15 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-25-15", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_25_47 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-25-47", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_26_27 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-26-27", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_26_52 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-26-52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_28_24 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-28-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_28_53 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-28-53", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_29_26 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-29-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_30_03 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-30-03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_31_14 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-31-14", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_31_40 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-31-40", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_32_48 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-32-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_05_19_16_33_17 {
+            get {
+                object obj = ResourceManager.GetObject("2023-05-19_16-33-17", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bacteria_1 {
             get {
                 object obj = ResourceManager.GetObject("Bacteria_1", resourceCulture);
@@ -236,6 +526,16 @@ namespace Plague_Inc._2._0.Properties {
         internal static System.Drawing.Bitmap Nano_virus_1 {
             get {
                 object obj = ResourceManager.GetObject("Nano_virus_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nazad {
+            get {
+                object obj = ResourceManager.GetObject("nazad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

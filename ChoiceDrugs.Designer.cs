@@ -40,6 +40,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -111,6 +114,7 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button3_MouseClick);
+            this.button5.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button4
             // 
@@ -127,6 +131,7 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button3_MouseClick);
+            this.button4.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button3
             // 
@@ -143,6 +148,7 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button3_MouseClick);
+            this.button3.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button2
             // 
@@ -159,6 +165,7 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button3_MouseClick);
+            this.button2.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button1
             // 
@@ -175,6 +182,7 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button3_MouseClick);
+            this.button1.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button6
             // 
@@ -191,6 +199,7 @@
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button3_MouseClick);
+            this.button6.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button7
             // 
@@ -207,6 +216,47 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Paint += new System.Windows.Forms.PaintEventHandler(this.DefPaint);
             this.button7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button3_MouseClick);
+            this.button7.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(516, 36);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(267, 261);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Описание";
+            // 
+            // button8
+            // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button8.AutoSize = true;
+            this.button8.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button8.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources.nazad;
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button8.Location = new System.Drawing.Point(0, 400);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(50, 50);
+            this.button8.TabIndex = 27;
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.Paint += new System.Windows.Forms.PaintEventHandler(this.RoundButton);
+            // 
+            // button9
+            // 
+            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button9.BackColor = System.Drawing.Color.Red;
+            this.button9.Location = new System.Drawing.Point(617, 363);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(171, 75);
+            this.button9.TabIndex = 28;
+            this.button9.Text = "Подтвердить";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // ChoiceDrugs
             // 
@@ -215,6 +265,9 @@
             this.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources.PlagueIncDef;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -251,5 +304,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }

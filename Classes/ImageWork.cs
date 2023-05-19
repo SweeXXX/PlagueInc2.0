@@ -40,5 +40,35 @@ namespace Plague_Inc._2._0.Classes
 
             return dimmedBitmap;
         }
+        internal static Image CreateOriginalImage(Image dimmedImage)
+        {
+            // Create a new bitmap with the same dimensions as the dimmed image
+            Bitmap originalBitmap = new Bitmap(dimmedImage.Width, dimmedImage.Height);
+
+            using (Graphics g = Graphics.FromImage(originalBitmap))
+            {
+                // Create a color matrix to remove the dimming effect
+                ColorMatrix colorMatrix = new ColorMatrix(new float[][]
+                {
+            new float[] {2, 0, 0, 0, 0},     // Red component
+            new float[] {0, 2, 0, 0, 0},     // Green component
+            new float[] {0, 0, 2, 0, 0},     // Blue component
+            new float[] {0, 0, 0, 1, 0},     // Alpha component
+            new float[] {0, 0, 0, 0, 1}      // Additional transformations
+                });
+
+                using (ImageAttributes imageAttributes = new ImageAttributes())
+                {
+                    // Apply the color matrix to the image attributes
+                    imageAttributes.SetColorMatrix(colorMatrix);
+
+                    // Draw the dimmed image onto the original bitmap using the image attributes
+                    g.DrawImage(dimmedImage, new Rectangle(0, 0, dimmedImage.Width, dimmedImage.Height),
+                        0, 0, dimmedImage.Width, dimmedImage.Height, GraphicsUnit.Pixel, imageAttributes);
+                }
+            }
+
+            return originalBitmap;
+        }
     }
 }

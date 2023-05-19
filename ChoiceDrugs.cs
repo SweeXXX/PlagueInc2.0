@@ -1,4 +1,6 @@
 ﻿using Plague_Inc._2._0.Classes;
+using Plague_Inc._2._0.Classes.TypesCS;
+using Plague_Inc._2._0.Interfaceses;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,6 +19,7 @@ namespace Plague_Inc._2._0
     public partial class ChoiceDrugs : Form
     {
         MainCS disease = new MainCS();
+        private Dictionary<Button, string> buttonStringMap;
         Image stab1 = global::Plague_Inc._2._0.Properties.Resources._2023_05_18_21_19_40,
             stab2 = global::Plague_Inc._2._0.Properties.Resources._2023_05_18_21_18_33,
             streng1 = global::Plague_Inc._2._0.Properties.Resources._2023_05_18_21_20_47,
@@ -132,6 +135,23 @@ namespace Plague_Inc._2._0
         {
             label2.Text = disease.Score.ToString();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            disease.Temp = disease.Score;   
+            ChoiceSymptoms choiceSymptoms = new ChoiceSymptoms(disease);
+            choiceSymptoms.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            disease.Score = disease.Temp;
+            ChoiceClimate choiceClimate = new ChoiceClimate(disease);
+            choiceClimate.Show();
+            this.Hide();
+        }
+
         private void DefPaint(object sender, PaintEventArgs e)
         {
             Button button = (Button)sender;
@@ -168,7 +188,9 @@ namespace Plague_Inc._2._0
         }
         private void ChoiceDrugs_Load(object sender, EventArgs e)
         {
+            disease.Temp = disease.Score;
             label2.Text = disease.Score.ToString();
+            InitializeButtonMap();
             this.DoubleBuffered = true;
             button1.BackgroundImage =ImageWork.CreateDimmedImage(button1.BackgroundImage);
             button2.BackgroundImage = ImageWork.CreateDimmedImage(button2.BackgroundImage);
@@ -178,12 +200,46 @@ namespace Plague_Inc._2._0
             button6.BackgroundImage = ImageWork.CreateDimmedImage(button6.BackgroundImage);
             button7.BackgroundImage = ImageWork.CreateDimmedImage(button7.BackgroundImage);
         }
+        private void RoundButton(object sender, PaintEventArgs e)
+        {
+            Button button = (Button)sender;
+
+            GraphicsPath path = new GraphicsPath();
+            int diameter = Math.Min(button.Width, button.Height) - 7;
+
+            path.AddEllipse(
+                (button.Width - diameter) / 2,
+                (button.Height - diameter) / 2,
+                diameter,
+                diameter);
+
+            button.Region = new Region(path);
+        }
+        private void InitializeButtonMap()
+        {
+            buttonStringMap = new Dictionary<Button, string>
+        {
+            { button1, "Развитие устойчивости к противовирусным препаратам 1 и 2 поколения. Повышается эффективность заражения в богатых странах."},
+            { button2, "Развитие устойчивости к противовирусным препаратам 3 и 4 поколения. Повышается эффективность заражения в богатых странах." },
+            { button3, "Патоген труднее поддается анализу в лаборатории. Уменьшается скорость будущих исследований."},
+            { button4, "Патоген не воспроизводится в лабораторных условиях. Уменьшается скорость будущих исследований."},
+            { button5, "Пересобраны цепочки ДНК инфекции. На разработку лекарства уйдет больше сил и времени."},
+            { button6, "Появился новый штамм болезни, из-за чего требуется больше времени на разработку лекарства."},
+            { button7, "Появилось множество штаммов болезни из-за чего требуется больше времени на разработку лекарства." }
+        };
+        }
         bool Helper()
         {
             DialogResult mb = MessageBox.Show("Хотите приобрести этот навык?",
                 "Хотите приобрести этот навык?",
                 MessageBoxButtons.YesNo);
             return mb == DialogResult.Yes;
+        }
+        private void Button_MouseEnter(object sender, EventArgs e)
+        {
+            Button clickedButton = (Button)sender;
+            string type = buttonStringMap[clickedButton];
+            label3.Text = type;
         }
     }
 }

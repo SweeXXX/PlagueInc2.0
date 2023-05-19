@@ -58,6 +58,12 @@
     <Compile Include="ChoiceDrugs.Designer.cs">
       <DependentUpon>ChoiceDrugs.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChoiceSymptoms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoiceSymptoms.Designer.cs">
+      <DependentUpon>ChoiceSymptoms.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChoiceType.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,11 +81,11 @@
     <Compile Include="Classes\TypesCS\Glist.cs" />
     <Compile Include="Classes\TypesCS\Prion.cs" />
     <Compile Include="Classes\TypesCS\Virus.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="LastForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="LastForm.Designer.cs">
+      <DependentUpon>LastForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaceses\ITypeable.cs" />
     <Compile Include="Program.cs" />
@@ -90,17 +96,30 @@
     <EmbeddedResource Include="ChoiceDrugs.resx">
       <DependentUpon>ChoiceDrugs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChoiceSymptoms.resx">
+      <DependentUpon>ChoiceSymptoms.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChoiceType.resx">
       <DependentUpon>ChoiceType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="LastForm.resx">
+      <DependentUpon>LastForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Symptoms.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Symptoms.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="Properties\Symptoms.Designer.cs">
+      <DependentUpon>Symptoms.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -199,6 +218,98 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Bacteria_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nazad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2023-05-19_16-33-171.png" />
+    <None Include="Resources\2023-05-19_16-32-481.png" />
+    <None Include="Resources\2023-05-19_16-31-401.png" />
+    <None Include="Resources\2023-05-19_16-31-141.png" />
+    <None Include="Resources\2023-05-19_16-30-031.png" />
+    <None Include="Resources\2023-05-19_16-29-261.png" />
+    <None Include="Resources\2023-05-19_16-28-531.png" />
+    <None Include="Resources\2023-05-19_16-28-241.png" />
+    <None Include="Resources\2023-05-19_16-26-521.png" />
+    <None Include="Resources\2023-05-19_16-26-271.png" />
+    <None Include="Resources\2023-05-19_16-25-471.png" />
+    <None Include="Resources\2023-05-19_16-25-151.png" />
+    <None Include="Resources\2023-05-19_16-24-441.png" />
+    <None Include="Resources\2023-05-19_16-24-111.png" />
+    <None Include="Resources\2023-05-19_16-23-441.png" />
+    <None Include="Resources\2023-05-19_16-23-121.png" />
+    <None Include="Resources\2023-05-19_16-22-491.png" />
+    <None Include="Resources\2023-05-19_16-22-221.png" />
+    <None Include="Resources\2023-05-19_16-21-591.png" />
+    <None Include="Resources\2023-05-19_16-21-311.png" />
+    <None Include="Resources\2023-05-19_16-20-581.png" />
+    <None Include="Resources\2023-05-19_16-20-331.png" />
+    <None Include="Resources\2023-05-19_16-20-041.png" />
+    <None Include="Resources\2023-05-19_16-19-401.png" />
+    <None Include="Resources\2023-05-19_16-19-111.png" />
+    <None Include="Resources\2023-05-19_16-18-471.png" />
+    <None Include="Resources\2023-05-19_16-18-101.png" />
+    <None Include="Resources\2023-05-19_16-17-371.png" />
+    <None Include="Resources\2023-05-19_16-16-551.png" />
+    <None Include="Resources\2023-05-19_16-33-17.png" />
+    <None Include="Resources\2023-05-19_16-32-48.png" />
+    <None Include="Resources\2023-05-19_16-31-40.png" />
+    <None Include="Resources\2023-05-19_16-31-14.png" />
+    <None Include="Resources\2023-05-19_16-30-03.png" />
+    <None Include="Resources\2023-05-19_16-29-26.png" />
+    <None Include="Resources\2023-05-19_16-28-53.png" />
+    <None Include="Resources\2023-05-19_16-28-24.png" />
+    <None Include="Resources\2023-05-19_16-26-52.png" />
+    <None Include="Resources\2023-05-19_16-26-27.png" />
+    <None Include="Resources\2023-05-19_16-25-47.png" />
+    <None Include="Resources\2023-05-19_16-25-15.png" />
+    <None Include="Resources\2023-05-19_16-24-44.png" />
+    <None Include="Resources\2023-05-19_16-24-11.png" />
+    <None Include="Resources\2023-05-19_16-23-44.png" />
+    <None Include="Resources\2023-05-19_16-23-12.png" />
+    <None Include="Resources\2023-05-19_16-22-49.png" />
+    <None Include="Resources\2023-05-19_16-22-22.png" />
+    <None Include="Resources\2023-05-19_16-21-59.png" />
+    <None Include="Resources\2023-05-19_16-21-31.png" />
+    <None Include="Resources\2023-05-19_16-20-58.png" />
+    <None Include="Resources\2023-05-19_16-20-33.png" />
+    <None Include="Resources\2023-05-19_16-20-04.png" />
+    <None Include="Resources\2023-05-19_16-19-40.png" />
+    <None Include="Resources\2023-05-19_16-19-11.png" />
+    <None Include="Resources\2023-05-19_16-18-47.png" />
+    <None Include="Resources\2023-05-19_16-18-10.png" />
+    <None Include="Resources\2023-05-19_16-17-37.png" />
+    <None Include="Resources\2023-05-19_16-16-55.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-16-55.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-17-37.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-18-10.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-18-47.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-19-11.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-19-40.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-20-04.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-20-33.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-20-58.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-21-31.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-21-59.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-22-22.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-22-49.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-23-12.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-23-44.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-24-11.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-24-44.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-25-15.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-25-47.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-26-27.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-26-52.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-28-24.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-28-53.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-29-26.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-30-03.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-31-14.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-31-40.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-32-48.png" />
+    <Content Include="Resources\Симптомы плагуе\2023-05-19_16-33-17.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

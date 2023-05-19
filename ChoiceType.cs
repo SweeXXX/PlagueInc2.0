@@ -102,11 +102,32 @@ namespace Plague_Inc._2._0
             Button clickedButton = (Button)sender;
             var type = buttonStringMap[clickedButton];
             label1.Text = type.ToString();  
-            if(e.Button == MouseButtons.Right) 
+            if(e.Button == MouseButtons.Left) 
             {
                 disease.typeOfDisease = type;
                 Tr();
             }
+        }
+        private void RoundButton(object sender, PaintEventArgs e)
+        {
+            Button button = (Button)sender;
+
+            GraphicsPath path = new GraphicsPath();
+            int diameter = Math.Min(button.Width, button.Height) - 7;
+
+            path.AddEllipse(
+                (button.Width - diameter) / 2,
+                (button.Height - diameter) / 2,
+                diameter,
+                diameter);
+
+            button.Region = new Region(path);
+        }
+        private void Button_MouseEnter(object sender, EventArgs e)
+        {
+            Button clickedButton = (Button)sender;
+            var type = buttonStringMap[clickedButton];
+            label1.Text = type.ToString();
         }
     }
 }

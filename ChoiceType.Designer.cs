@@ -38,6 +38,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,6 +68,7 @@
             this.button1.TabIndex = 1;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button_Click);
+            this.button1.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button2
             // 
@@ -83,6 +85,7 @@
             this.button2.TabIndex = 2;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button_Click);
+            this.button2.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button3
             // 
@@ -99,6 +102,7 @@
             this.button3.TabIndex = 3;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button_Click);
+            this.button3.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button4
             // 
@@ -115,6 +119,7 @@
             this.button4.TabIndex = 4;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button_Click);
+            this.button4.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button5
             // 
@@ -131,6 +136,7 @@
             this.button5.TabIndex = 5;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button_Click);
+            this.button5.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button6
             // 
@@ -147,6 +153,7 @@
             this.button6.TabIndex = 6;
             this.button6.UseVisualStyleBackColor = false;
             this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button_Click);
+            this.button6.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // button7
             // 
@@ -163,6 +170,7 @@
             this.button7.TabIndex = 7;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button_Click);
+            this.button7.MouseEnter += new System.EventHandler(this.Button_MouseEnter);
             // 
             // label1
             // 
@@ -176,6 +184,21 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Прекольчик";
             // 
+            // button8
+            // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button8.AutoSize = true;
+            this.button8.BackColor = System.Drawing.SystemColors.ControlText;
+            this.button8.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources.nazad;
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button8.Location = new System.Drawing.Point(0, 429);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(50, 50);
+            this.button8.TabIndex = 27;
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Paint += new System.Windows.Forms.PaintEventHandler(this.RoundButton);
+            // 
             // ChoiceType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -183,6 +206,7 @@
             this.BackgroundImage = global::Plague_Inc._2._0.Properties.Resources.плгуемаин;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 479);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -213,5 +237,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button8;
     }
 }
