@@ -19,6 +19,7 @@ namespace Plague_Inc._2._0
         MainCS disease = new MainCS();
         private MusicPlayer musicPlayer;
         private Dictionary<Button, ITypeable> buttonStringMap;
+        new Dictionary<Button, Image> buttonImageMap;
         public ChoiceType()
         {
             musicPlayer = new MusicPlayer();
@@ -85,6 +86,7 @@ namespace Plague_Inc._2._0
 
         private void ChoiceType_Load(object sender, EventArgs e)
         {
+            InitializeImageList();
             musicPlayer.Start();
             InitializeButtonMap();
         }
@@ -101,6 +103,19 @@ namespace Plague_Inc._2._0
             { button7, new Virus() }
         };
         }
+        private void InitializeImageList()
+        {
+            buttonImageMap = new Dictionary<Button, Image>
+        {
+            { button1, global::Plague_Inc._2._0.Properties.Resources.Bacteria_1},
+            { button2, global::Plague_Inc._2._0.Properties.Resources.Bio_weapon_1},
+            { button3, global::Plague_Inc._2._0.Properties.Resources.Nano_virus_1},
+            { button4, global::Plague_Inc._2._0.Properties.Resources.Fungus_1},
+            { button5, global::Plague_Inc._2._0.Properties.Resources.Rrion_1},
+            { button6, global::Plague_Inc._2._0.Properties.Resources.Glist_1},
+            { button7,  global::Plague_Inc._2._0.Properties.Resources.Virus_1}
+        };
+        }
         private void Button_Click(object sender, MouseEventArgs e)
         {
             Button clickedButton = (Button)sender;
@@ -108,6 +123,7 @@ namespace Plague_Inc._2._0
             label1.Text = type.ToString();  
             if(e.Button == MouseButtons.Left) 
             {
+                disease.image = buttonImageMap[clickedButton];
                 disease.typeOfDisease = type;
                 Tr();
             }
@@ -136,6 +152,7 @@ namespace Plague_Inc._2._0
 
         private void ChoiceType_FormClosing(object sender, FormClosingEventArgs e)
         {
+            
             musicPlayer.Stop();
             Application.Exit();
         }

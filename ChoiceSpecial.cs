@@ -181,5 +181,13 @@ namespace Plague_Inc._2._0
             choiceDrugs.Show();
             this.Hide();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form2 = new FormTest(disease);
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
+        }
     }
 }

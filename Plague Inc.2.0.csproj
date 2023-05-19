@@ -118,11 +118,11 @@
     <Compile Include="Classes\TypesCS\Glist.cs" />
     <Compile Include="Classes\TypesCS\Prion.cs" />
     <Compile Include="Classes\TypesCS\Virus.cs" />
-    <Compile Include="FinishForm.cs">
+    <Compile Include="FormTest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FinishForm.Designer.cs">
-      <DependentUpon>FinishForm.cs</DependentUpon>
+    <Compile Include="FormTest.Designer.cs">
+      <DependentUpon>FormTest.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaceses\ITypeable.cs" />
     <Compile Include="Program.cs" />
@@ -142,8 +142,8 @@
     <EmbeddedResource Include="ChoiceType.resx">
       <DependentUpon>ChoiceType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FinishForm.resx">
-      <DependentUpon>FinishForm.cs</DependentUpon>
+    <EmbeddedResource Include="FormTest.resx">
+      <DependentUpon>FormTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Symptoms.resx">
       <Generator>ResXFileCodeGenerator</Generator>
